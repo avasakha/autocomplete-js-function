@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+
+    <style>
+        #autocomplete {
+            width: 200px;
+            margin:  0 auto;
+        }
+        .textbox {
+            width: calc(100% - 6px);
+
+        }
+
+        .list {
+            position:absolute;
+            width: 100%;
+            border: solid 1px #ccc;
+        }
+
+        .list li {
+            cursor: pointer;
+        }
+
+        .list li:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div id='autocomplete'></div>
+    <script src="app.js"></script>
+</body>
+</html>
